@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+* {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+body {
+  background-color: #0d1117;
+  color: #ffffff;
+}
+
+.bg-dark-blue {
+  background-color: #0d1117;
+}
+
+.bg-accent-green {
+  background-color: #00D084;
+}
+
+.text-accent-green {
+  color: #00D084;
+}
+
+.bg-accent-green-dark {
+  background-color: #007A5E;
+}
+
+.bg-accent-green-bright {
+  background-color: #4CAF50;
+}
+
+.text-accent-green-light {
+  color: #A8E6CF;
+}
+
+/* Custom blur classes */
+.blur-[120px] {
+  filter: blur(120px);
+}
+
+.blur-[150px] {
+  filter: blur(150px);
+}
+
+/* Smooth fade-in transition */
+@keyframes fade-in-smooth {
+  0% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-fade-in-smooth {
+  animation: fade-in-smooth 0.5s ease-out;
+}
