@@ -1,43 +1,51 @@
 # Outclass the Odds
 
-This project utilizes the [The Odds API](https://the-odds-api.com/) to access the betting lines for each major sportsbook worldwide, focusing on analyzing the major North American sportsbooks, such as DraftKings, BetMGM, Fanduel, Bovada, Fliff and Hard Rock Bet. With the found information, users will be able to find various lines to all sports games found in the sportsbooks. 
+Outclass the Odds is a platform designed to help sports bettors compare odds across major sportsbooks and identify profitable betting opportunities—especially **arbitrage bets**.  
+The system uses **[The Odds API](https://the-odds-api.com/)** to fetch real-time betting lines from top North American sportsbooks such as **DraftKings, BetMGM, FanDuel, Bovada, Fliff,** and **Hard Rock Bet**.
 
-  - This gives users the ability to compare lines
-  - Gives the ability for bettors to find the lines with the most value to secure more profit
-  - Perfect for arbitrage betting
+By aggregating and analyzing odds across multiple books, users can:
 
-You can check our project out at [outclasstheodds.com](http://outclasstheodds.com/)
+- Compare lines instantly  
+- Identify which sportsbook offers the best value  
+- Detect risk-free arbitrage opportunities
+- Optimize profit by choosing the best available odds  
+- Confidently place strategic bets backed by math, not guesswork  
 
-### What is arbitrage betting? 
+Try the platform at **[outclasstheodds.com](https://outclasstheodds.vercel.app/)**
 
-Arbitrage betting is a strategy that involves placing bets on every possible outcome of a sporting event. 
-   -  This involves taking advantage of differing opinions between all the major sportsbook lines.   
-For example, a bettor can place bets on both a win or loss of the same team, at odds that ensure they make an overall profit regardless of the game outcome.
+---
 
+## What Is Arbitrage Betting?
+
+**Arbitrage betting is the strategy of placing bets on every possible outcome of a sporting event using different sportsbooks to guarantee a profit, no matter who wins.
+
+This works because sportsbooks sometimes disagree on their odds.  
+When the disagreement is large enough, you can distribute your bets such that:
+
+- Outcome A → you profit  
+- Outcome B → you profit  
+- Outcome C (if applicable) → you profit  
+
+For example, a bettor can place one bet on a team to win at **Book A**, and another bet on the same team to lose at **Book B**, as long as the combined implied probabilities are under 100%.  
+Outclass the Odds automates this analysis.
+
+---
 
 ## Features
 
+- **Real-time odds comparison** across multiple sportsbooks  
+- **Arbitrage detection engine** using mathematical probability checks  
+- **Optimal stake allocation** to guarantee maximum profit  
+- **FastAPI backend** with structured JSON responses  
+- **Fallback sample data** for offline/demo mode  
+- **Developer-friendly API** with automatic Swagger documentation  
+
+---
 
 ## Installation
 
+### 1. Clone the repository
 
-
-## Usage
-
-
-## Code Structure
-
-
-## Getting Started
-
-
-
-## Author's Information
-
-Sebastian Kula: 1247993
-
-skula@uoguelph.ca
-
-Andre Rabanillo: 1234572
-
-arabanil@uoguelph.ca
+```bash
+git clone https://github.com/<your-repo>/outclass-the-odds.git
+cd outclass-the-odds
